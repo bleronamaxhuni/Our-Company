@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&display=swap');
+header{
+    width: 100%;
+}
+nav{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.navbar {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.navbar-brand{
+    font-weight: 600;
+}
+.navbar-collapse {
+    /* flex-basis: 100%; */
+    flex-grow: 0;
+    align-items: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 4em;
+    padding-left: 4em;
+}
+.social-links img{
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+}

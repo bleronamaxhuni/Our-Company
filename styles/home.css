@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #dbdbdb;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly!important;
+}
+.row.cards{
+    padding-top: 5%;
+}
+.card-body{
+    text-align: center;
+    padding: 3%;
+}
+.card-title,.card-text{
+    color: rgb(54, 54, 54);
+}
+.btn.btn-primary{
+    
+}

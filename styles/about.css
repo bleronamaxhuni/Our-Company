@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #dbdbdb;
+    overflow-x: hidden;
+}
+nav{
+    background-color: black;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+.navbar-toggler{
+    background-color: #757575;
+}
+.About{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    padding: 10%;
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+}
+.about-title{
+    color: white;
+    font-weight: 600;
+}
+.cards{
+    padding-top: 5%;
+}
+.card{
+    padding: 4%;
+    margin-bottom:5%;
+    background-color: #C8C8C8;
+    border: none;
+    box-shadow:17px 20px 8px 0px #9191916b;
+}
+.card-title{
+    color: white;
+    padding: 0;
+}
+.card-text{
+    color: #757575;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+.contact{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    padding: 10%;
+}
+.contactUs{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.contact-title{
+    color: white;
+    font-weight: 600;
+}
+.contactBtn{
+    width: 30%;
+    background-color: transparent;
+    border: none;
+}
+.contactBtn a{
+    text-decoration: none;
+    color: #FFFF00;
+    font-family: 'Kalam', cursive;
+}
+.footer.dark{
+	background-color:black;
+    padding-top: 0;
+    padding-bottom: 0;
+}

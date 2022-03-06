@@ -26,3 +26,8 @@ nav{
     padding-right: 0.4rem;
     padding-left: 0.4rem;
 }
+@media (max-width:991px) {
+    .navbar-nav{
+        align-items: center;
+    }
+}

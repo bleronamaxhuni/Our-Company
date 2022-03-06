@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000000;
+    overflow-x: hidden;
+}
+nav{
+    background-color: black;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+.navbar-toggler{
+    background-color: #757575;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+.contact-us{
+    color: #FFFF00;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    margin: 0;
+}
+.contact-section{
+	background-color: #5c5c5c;
+	margin-top: 10%;
+    margin-bottom: 4%;
+	padding-bottom: 40px;
+}
+.form {
+	padding-left:25px;
+	padding-right:25px;
+	margin: 12px auto;
+	padding-top:100px;
+	position:relative;
+	z-index:1;
+}
+.form > .inputs{
+	position:absolute;
+	top:0;
+	left:50%;
+	padding:10px 20px 0px;
+	transform:translate(-50%,-50%);
+	background-color:#5c5c5c;
+	border: 2px solid rgba(204, 204, 204, 0);
+	border-radius: 20px;
+	text-align:center;
+}
+.inputs::placeholder{
+	font-size: 15px;
+}
+textarea::placeholder{
+	font-size: 15px;
+}
+.form > .inputs > .mail-img{
+	filter:invert(1);
+	width:100px;
+}
+.form > input,
+.form > textarea {
+	padding: 5px;
+	margin: 12px auto;
+	border: 1px solid rgba(204, 204, 204, 0);
+	color: rgba(221, 221, 221, 0.568);
+	background-color: black;
+	border-radius: 7px;
+	display: block;
+	width: 30vw;
+}
+.form > textarea{
+	height:100px;
+	resize:none;
+}
+.form > input[type="submit"] {
+	max-width: 15vw;
+	padding-left: 1%;
+	padding-right: 1%;
+	cursor: pointer;
+	transition: 0.35s;
+	font-size: 25px;
+}
+
+.form > input[type="submit"]:hover {
+	background-color: #131313;
+	color: #979797;
+}
+
+@media (max-width:1228px) {
+	.form > input,
+	.form > textarea{
+		width: 50vw;
+	}
+}
+@media (max-width:891px) {
+	.form > input,
+	.form > textarea{
+		width: 60vw;
+	}
+}
+@media (max-width:568px) {
+	.form > input,
+	.form > textarea{
+		width: 70vw;
+	}
+	.form > input[type="submit"]{
+		max-width:20vw ;
+		font-size: 18px;
+	}
+}
+@media (max-width:386px) {
+	.form > input[type="submit"]{
+		max-width:25vw ;
+		font-size: 15px;
+	}
+}
+
+.footer.dark{
+	background-color:black;
+    padding-top: 0;
+    padding-bottom: 0;
+}

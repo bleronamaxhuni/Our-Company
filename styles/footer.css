@@ -36,7 +36,24 @@ footer{
 .Footer ul li:not(:last-child){
 	margin-bottom: 10px;
 }
-.Footer ul li a{
+.Footer .links a{
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: #000000;
+	display: block;
+	text-align: center;
+	margin-right: 0px;
+	transition: all 0.3s ease;
+}
+.link{
+	color: black;
+}
+.link:hover{
+	padding-left: 10px;
+}
+/*.Footer ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
 	text-decoration: none;
@@ -48,8 +65,7 @@ footer{
 	transition: all 0.3s ease;
 }
 .Footer ul li a:hover{
-	color: #494949;
-	padding-left: 8px;
+	color: #2e2e2e;
 }
 .Footer .social-links a{
 	font-size: 16px;
@@ -64,9 +80,9 @@ footer{
 	transition: all 0.3s ease;
 }
 .Footer .social-links a:hover{
-	color: #ffffff;
-	padding-left: 8px;
-}
+	color: #2e2e2e;
+} */
+
 @media(max-width:991px){
     .Footer ul li a{
         font-size: 13px;

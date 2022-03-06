@@ -4,6 +4,7 @@
 }
 body{
     background-color: #dbdbdb;
+    overflow-x: hidden;
 }
 .row{
     display: flex;
@@ -19,6 +20,54 @@ body{
 .card-title,.card-text{
     color: rgb(54, 54, 54);
 }
-.btn.btn-primary{
-    
+.viewBtn{
+    border: none;
+}
+.row.ourStaff.cards{
+    padding-left: 0;
+    padding-right: 0;
+}
+.card.bg-dark{
+    border: none;
+    margin-bottom: 4%;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 80%;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    border-radius: calc(0.25rem - 1px);
+}
+.card-title{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.301);
+}
+#OurWork{
+    padding: 5%;
+    padding-bottom: 0;
+}
+.row.work{
+    display: flex;
+    justify-content: space-evenly!important;
+}
+.row.work .card{
+    margin-bottom: 4%;
+    background-color: #747474;
+    border: none;
+}
+.seeWeb{
+    border: none;
+    width: 60%;
+    background-color: #234785b7;
+    padding: 2%;
+    border-radius: 30px;
+
+}
+.seeWeb a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    padding-bottom: 0;
 }
